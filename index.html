@@ -1,46 +1,49 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        h1,
-        h2,
-        h3 {
-
-            text-align: center;
+        table {
+            width: 600px;
+            border: solid 1px black;
+            border-collapse: collapse;
         }
 
-        p {
-
-            color: blue;
-        }
-
-        .destaque {
-
-            font-weight: bold;
-        }
-
-        #titulo {
-
-            color: red;
-        }
-
-        .info {
-
-            color: green;
-
+        tr,
+        td {
+            border: solid 1px black;
         }
     </style>
 </head>
 <body>
-    <h1 id="titulo">Bem-vindo</h1>
-    <p>Parágrafo comum</p>
-    <p class="destaque">Parágrafo em destaque</p>
-    <h2>subtítulo</h2>
-    <h3>outro subtítulo</h3>
-    <p class="info">Informação importante</p>
+    <table>
+        <thead>
+            <tr>
+                <td>Nome</td>
+                <td>Idade</td>
+                <td>País</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alan Turing</td>
+                <td>27</td>
+                <td>Inglaterra</td>
+            </tr>
+            <tr>
+                <td>Luís Miguel</td>
+                <td>15</td>
+                <td>Brasil</td>
+            </tr>
+            <tr>
+                <td>Genivaldo</td>
+                <td>32</td>
+                <td>Brasil</td>
+            </tr>
+        </tbody>
+    </table>
 
     <a href="https://luismigueldasilvapacheco.github.io/Portfolio-html-css/index.html">Voltar</a>
 </body>
